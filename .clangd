@@ -1,0 +1,20 @@
+# Editor-only additions. Paths are relative to this project root.
+CompileFlags:
+  Add:
+    - --target=arm-none-eabi
+    - -mcpu=cortex-m3
+    - -mthumb
+    - -mfloat-abi=soft
+    - -DSTM32F103x6
+    - -DSTM32F1
+    - -std=c11
+    - -Iinclude
+    - -I/home/nerd/Development/hardware/libs/libopencm3/include
+    - -I/home/nerd/Development/hardware/libs/CMSIS_5/CMSIS/Core/Include
+    - -I/home/nerd/Development/hardware/libs/cmsis-device-f1/Include
+    - -isystem
+    - /usr/lib/gcc/arm-none-eabi/15.2.0/include
+    - -isystem
+    - /usr/lib/gcc/arm-none-eabi/15.2.0/include-fixed
+    - -isystem
+    - /usr/arm-none-eabi/include
