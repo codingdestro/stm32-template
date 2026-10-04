@@ -8,7 +8,7 @@ CompileFlags:
     - -DSTM32F103x6
     - -DSTM32F1
     - -std=c11
-    - -Iinclude
+    - -I../include
     - -I/home/nerd/Development/hardware/libs/libopencm3/include
     - -I/home/nerd/Development/hardware/libs/CMSIS_5/CMSIS/Core/Include
     - -I/home/nerd/Development/hardware/libs/cmsis-device-f1/Include
